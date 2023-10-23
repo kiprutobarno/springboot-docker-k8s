@@ -28,10 +28,12 @@ To run this project locally
    `$ kubectl apply -f mysql-root-credentials.yaml`
    `$ kubectl apply -f mysql-credentials.yaml`
    `$ kubectl apply -f mysql-deployment.yaml`
+
    OPTIONAL: You can run the following commands to interact with MySQL:
    `$ kubectl run -it --rm --image=mysql:latest --restart=Never mysql-client -- mysql -h mysql -uroot -ptoor`
    The above command will create a `mysql-client` and present a mysql prompt in the terminal like:
    `$ mysql> `
+
 6. Navigate back to the root directory where the `Dockerfile` is domiciled and build the application image using docker by running:
    `$ cd ..`
    `$ docker build -t <your-dockerhub-username>/springboot-k8s-mysql:latest .`
