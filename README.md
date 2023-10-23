@@ -66,8 +66,3 @@ To run this project locally
    `$ kubectl get pods`  
    `$ kubectl logs pod-name`  
    `$ kubectl get events --sort-by=.metadata.creationTimestamp`
-
-## Screenshots
-
-
-![Running Kubernetes Pods](file:///home/maxwel/Pictures/Screenshots/Screenshot%20from%202023-10-24%2001-58-33.png?raw=true "Running Kubernetes Pods")
